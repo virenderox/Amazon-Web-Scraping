@@ -31,6 +31,8 @@ def amazon_search(a):
         print("Ratings: ".ljust(26," ")+"Not rated yet")
     
 print("Enter the link of the product selected from amazon website:")
-a=str(input())
+a=str(input()) 
+# you still write it as
+#a = input()
 amazon_search(a)
 
